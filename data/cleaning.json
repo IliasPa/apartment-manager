@@ -1,0 +1,17 @@
+{
+  "hiddenCosts": [
+    "clean_bk_1774165020000",
+    "bedding_bk_1774165020000_d4",
+    "clean_bk_1775409600000",
+    "bedding_bk_1775409600000_d4",
+    "clean_bk_1774273500000",
+    "bedding_bk_1774273500000_d4",
+    "clean_bk_1779210840000",
+    "clean_bk_1777478460000"
+  ],
+  "rates": {
+    "fullClean": 50,
+    "beddingChange": 15,
+    "beddingInterval": 4
+  }
+}

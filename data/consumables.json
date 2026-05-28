@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cons_1775898000000",
+    "apartment": "general",
+    "name": "Sponges",
+    "costModel": "perStay",
+    "quantityPerUse": 1,
+    "guestsDefault": 4,
+    "dateBought": "2026-04-11",
+    "quantity": 50,
+    "totalCost": 6,
+    "notes": "Lidl"
+  },
+  {
+    "id": "cons_1775898000001",
+    "apartment": "general",
+    "name": "Toilet paper",
+    "costModel": "perGuest",
+    "quantityPerUse": 2,
+    "guestsDefault": 4,
+    "dateBought": "2026-04-11",
+    "quantity": 48,
+    "totalCost": 19,
+    "notes": "Supermarket"
+  },
+  {
+    "id": "cons_1776243600002",
+    "apartment": "general",
+    "name": "Coffee capsules",
+    "costModel": "perGuest",
+    "quantityPerUse": 4,
+    "guestsDefault": 4,
+    "dateBought": "2026-04-15",
+    "quantity": 100,
+    "totalCost": 32,
+    "notes": "Amazon"
+  },
+  {
+    "id": "cons_1776243600003",
+    "apartment": "general",
+    "name": "Shampoo & shower gel (mini)",
+    "costModel": "perGuest",
+    "quantityPerUse": 1,
+    "guestsDefault": 4,
+    "dateBought": "2026-04-15",
+    "quantity": 60,
+    "totalCost": 27,
+    "notes": "Jumbo"
+  },
+  {
+    "id": "cons_1776675600004",
+    "apartment": "general",
+    "name": "Dish soap",
+    "costModel": "perStay",
+    "quantityPerUse": 1,
+    "guestsDefault": 4,
+    "dateBought": "2026-04-20",
+    "quantity": 12,
+    "totalCost": 14.4,
+    "notes": "Lidl"
+  },
+  {
+    "id": "cons_1776675600005",
+    "apartment": "general",
+    "name": "Garbage bags",
+    "costModel": "perStay",
+    "quantityPerUse": 3,
+    "guestsDefault": 4,
+    "dateBought": "2026-04-20",
+    "quantity": 120,
+    "totalCost": 9.6,
+    "notes": "Lidl"
+  },
+  {
+    "id": "cons_1777712400006",
+    "apartment": "general",
+    "name": "Laundry detergent",
+    "costModel": "perStay",
+    "quantityPerUse": 1,
+    "guestsDefault": 4,
+    "dateBought": "2026-05-02",
+    "quantity": 40,
+    "totalCost": 18,
+    "notes": "Supermarket"
+  }
+]
