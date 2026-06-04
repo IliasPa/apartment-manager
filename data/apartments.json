@@ -1,12 +1,38 @@
-[
-  {
-    "id": "front",
-    "name": "Front",
-    "notes": "85 m² · 2 bedrooms · sea view"
+{
+  "apartments": [
+    {
+      "id": "front",
+      "name": "Front",
+      "notes": "85 m² · 2 bedrooms · sea view",
+      "owner": "Eleni",
+      "ownerPhone": "+30 690 000 0101",
+      "ama": "00000000101",
+      "shares": {
+        "Eleni": 80,
+        "manager": 20
+      }
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "notes": "60 m² · 1 bedroom · garden",
+      "owner": "Giorgos",
+      "ownerPhone": "+30 690 000 0102",
+      "ama": "00000000102",
+      "shares": {
+        "Giorgos": 50,
+        "Eleni": 30,
+        "manager": 20
+      }
+    }
+  ],
+  "manager": {
+    "name": "Alex",
+    "phone": "+30 690 000 0100"
   },
-  {
-    "id": "back",
-    "name": "Back",
-    "notes": "60 m² · 1 bedroom · garden"
+  "accountant": {
+    "name": "Katerina Ioannou",
+    "phone": "+30 210 000 0100",
+    "email": "accountant@example.com"
   }
-]
+}

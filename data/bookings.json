@@ -156,6 +156,18 @@
     "notes": "Late arrival ~23:00"
   },
   {
+    "id": "bk_1780469520000",
+    "apartment": "back",
+    "checkIn": "2026-07-12",
+    "checkOut": "2026-07-15",
+    "nights": 3,
+    "platform": "Booking",
+    "reservation": 364,
+    "commission": 60.06,
+    "netIncome": 303.94,
+    "notes": "Early check-out"
+  },
+  {
     "id": "bk_1778006520000",
     "apartment": "front",
     "checkIn": "2026-07-14",
