@@ -9,7 +9,10 @@
     "reservation": 332,
     "commission": 0,
     "netIncome": 332,
-    "notes": "Early check-out"
+    "notes": "Early check-out",
+    "guestName": "Matteo Ricci",
+    "guestId": "XG8274727",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1775409600000",
@@ -21,7 +24,10 @@
     "reservation": 455,
     "commission": 0,
     "netIncome": 455,
-    "notes": "Late arrival ~23:00"
+    "notes": "Late arrival ~23:00",
+    "guestName": "Laura García",
+    "guestId": "CY5900991",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1773638700000",
@@ -33,7 +39,10 @@
     "reservation": 931,
     "commission": 153.62,
     "netIncome": 777.38,
-    "notes": "Late arrival ~23:00"
+    "notes": "Late arrival ~23:00",
+    "guestName": "Maria Konstantinou",
+    "guestId": "NS542727",
+    "guestTaxNumber": "112171427"
   },
   {
     "id": "bk_1776349200000",
@@ -45,7 +54,10 @@
     "reservation": 684,
     "commission": 106.02,
     "netIncome": 577.98,
-    "notes": "Returning guests"
+    "notes": "Returning guests",
+    "guestName": "Giulia Bianchi",
+    "guestId": "BG3908563",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1772740080000",
@@ -57,7 +69,10 @@
     "reservation": 1002,
     "commission": 155.31,
     "netIncome": 846.69,
-    "notes": ""
+    "notes": "",
+    "guestName": "Jan de Vries",
+    "guestId": "TA3166605",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1773581880000",
@@ -69,7 +84,10 @@
     "reservation": 1101,
     "commission": 170.66,
     "netIncome": 930.34,
-    "notes": "Early check-out"
+    "notes": "Early check-out",
+    "guestName": "Dimitris Pappas",
+    "guestId": "TP650138",
+    "guestTaxNumber": "134714533"
   },
   {
     "id": "bk_1774273500000",
@@ -81,7 +99,10 @@
     "reservation": 520,
     "commission": 0,
     "netIncome": 520,
-    "notes": "Arriving by ferry"
+    "notes": "Arriving by ferry",
+    "guestName": "Clara Jensen",
+    "guestId": "AZ4766902",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1778226240000",
@@ -93,7 +114,10 @@
     "reservation": 548,
     "commission": 84.94,
     "netIncome": 463.06,
-    "notes": ""
+    "notes": "",
+    "guestName": "Ioanna Vlachou",
+    "guestId": "PK546016",
+    "guestTaxNumber": "171539513"
   },
   {
     "id": "bk_1779210840000",
@@ -105,7 +129,10 @@
     "reservation": 195,
     "commission": 0,
     "netIncome": 195,
-    "notes": "Early check-out"
+    "notes": "Early check-out",
+    "guestName": "Elena Popescu",
+    "guestId": "RT3389286",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1778837340000",
@@ -117,7 +144,10 @@
     "reservation": 415,
     "commission": 68.48,
     "netIncome": 346.52,
-    "notes": "Asked for a baby cot"
+    "notes": "Asked for a baby cot",
+    "guestName": "Daniel Novak",
+    "guestId": "TR5826306",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1776443400000",
@@ -129,7 +159,10 @@
     "reservation": 702,
     "commission": 0,
     "netIncome": 702,
-    "notes": "Asked for a baby cot"
+    "notes": "Asked for a baby cot",
+    "guestName": "Sophie Martin",
+    "guestId": "YK7745788",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1776883440000",
@@ -141,7 +174,10 @@
     "reservation": 1229,
     "commission": 190.5,
     "netIncome": 1038.5,
-    "notes": "Returning guests"
+    "notes": "Returning guests",
+    "guestName": "James Wilson",
+    "guestId": "RG5938778",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1777478460000",
@@ -153,7 +189,10 @@
     "reservation": 142,
     "commission": 0,
     "netIncome": 142,
-    "notes": "Late arrival ~23:00"
+    "notes": "Late arrival ~23:00",
+    "guestName": "Sofia Nikolaou",
+    "guestId": "RY921364",
+    "guestTaxNumber": "189979425"
   },
   {
     "id": "bk_1780469520000",
@@ -165,7 +204,10 @@
     "reservation": 364,
     "commission": 60.06,
     "netIncome": 303.94,
-    "notes": "Early check-out"
+    "notes": "Early check-out",
+    "guestName": "Sarah Johnson",
+    "guestId": "KY4597623",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1778006520000",
@@ -177,7 +219,10 @@
     "reservation": 540,
     "commission": 89.1,
     "netIncome": 450.9,
-    "notes": "Arriving by ferry"
+    "notes": "Arriving by ferry",
+    "guestName": "Erik Larsen",
+    "guestId": "TN4352718",
+    "guestTaxNumber": ""
   },
   {
     "id": "bk_1778093220000",
@@ -189,6 +234,9 @@
     "reservation": 1281,
     "commission": 198.56,
     "netIncome": 1082.44,
-    "notes": "Returning guests"
+    "notes": "Returning guests",
+    "guestName": "Julia Wagner",
+    "guestId": "YB5866552",
+    "guestTaxNumber": ""
   }
 ]
