@@ -554,6 +554,66 @@
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
+    },
+    {
+      "id": "e38",
+      "apartment": "Front",
+      "categoryI": "Bathroom",
+      "categoryII": "Utilities",
+      "item": "Hair dryer",
+      "where": "Kotsovolos",
+      "quantity": 1,
+      "costPerUnit": 24.9,
+      "totalCost": 24.9,
+      "status": "bought",
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
+    },
+    {
+      "id": "e39",
+      "apartment": "Front",
+      "categoryI": "Kitchen",
+      "categoryII": "Appliances",
+      "item": "Toaster",
+      "where": "Jumbo",
+      "quantity": 1,
+      "costPerUnit": 22.9,
+      "totalCost": 22.9,
+      "status": "bought",
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
+    },
+    {
+      "id": "e40",
+      "apartment": "Front",
+      "categoryI": "Kitchen",
+      "categoryII": "Utilities",
+      "item": "Cutlery set",
+      "where": "IKEA",
+      "quantity": 1,
+      "costPerUnit": 24.99,
+      "totalCost": 24.99,
+      "status": "bought",
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
+    },
+    {
+      "id": "e41",
+      "apartment": "Front",
+      "categoryI": "Livingroom",
+      "categoryII": "Decor",
+      "item": "Rug",
+      "where": "IKEA",
+      "quantity": 1,
+      "costPerUnit": 59,
+      "totalCost": 59,
+      "status": "bought",
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
     }
   ],
   "categories": {
@@ -599,7 +659,8 @@
       "General": [
         "Internet / TV",
         "Maintenance",
-        "Other"
+        "Other",
+        "Safety"
       ]
     }
   }

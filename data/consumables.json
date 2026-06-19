@@ -82,5 +82,17 @@
     "quantity": 40,
     "totalCost": 18,
     "notes": "Supermarket"
+  },
+  {
+    "id": "cons_1780390800007",
+    "apartment": "general",
+    "name": "Water bottles 1.5L",
+    "costModel": "perGuest",
+    "quantityPerUse": 1,
+    "guestsDefault": 4,
+    "dateBought": "2026-06-02",
+    "quantity": 72,
+    "totalCost": 21.6,
+    "notes": "Supermarket"
   }
 ]

@@ -165,6 +165,21 @@
     "guestTaxNumber": ""
   },
   {
+    "id": "bk_1780667940000",
+    "apartment": "back",
+    "checkIn": "2026-07-02",
+    "checkOut": "2026-07-06",
+    "nights": 4,
+    "platform": "Booking",
+    "reservation": 512,
+    "commission": 84.48,
+    "netIncome": 427.52,
+    "notes": "Arriving by ferry",
+    "guestName": "Oliver Brown",
+    "guestId": "KD4595877",
+    "guestTaxNumber": ""
+  },
+  {
     "id": "bk_1776883440000",
     "apartment": "front",
     "checkIn": "2026-07-04",
@@ -237,6 +252,36 @@
     "notes": "Returning guests",
     "guestName": "Julia Wagner",
     "guestId": "YB5866552",
+    "guestTaxNumber": ""
+  },
+  {
+    "id": "bk_1781700180000",
+    "apartment": "front",
+    "checkIn": "2026-08-01",
+    "checkOut": "2026-08-08",
+    "nights": 7,
+    "platform": "Direct",
+    "reservation": 1150,
+    "commission": 0,
+    "netIncome": 1150,
+    "notes": "",
+    "guestName": "Antoine Leroy",
+    "guestId": "RT2078693",
+    "guestTaxNumber": ""
+  },
+  {
+    "id": "bk_1780903740000",
+    "apartment": "front",
+    "checkIn": "2026-08-11",
+    "checkOut": "2026-08-18",
+    "nights": 7,
+    "platform": "Booking",
+    "reservation": 1168,
+    "commission": 192.72,
+    "netIncome": 975.28,
+    "notes": "Asked for a baby cot",
+    "guestName": "Mia Andersson",
+    "guestId": "AC1003589",
     "guestTaxNumber": ""
   }
 ]

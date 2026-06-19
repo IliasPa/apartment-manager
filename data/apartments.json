@@ -29,5 +29,11 @@
   "manager": {
     "name": "Alex",
     "phone": "+30 690 000 0100"
-  }
+  },
+  "accountant": {
+    "name": "Katerina Ioannou",
+    "phone": "+30 210 000 0100",
+    "email": "accountant@example.com"
+  },
+  "notes": []
 }
