@@ -35,5 +35,11 @@
     "phone": "+30 210 000 0100",
     "email": "accountant@example.com"
   },
-  "notes": []
+  "notes": [
+    {
+      "id": "note_1782400320000_221",
+      "title": "Wi-Fi",
+      "body": "Front: FrontApt_5G · sunset2026\nBack: BackApt · garden2026"
+    }
+  ]
 }
