@@ -9,7 +9,8 @@
     "dateBought": "2026-04-11",
     "quantity": 50,
     "totalCost": 6,
-    "notes": "Lidl"
+    "notes": "Lidl",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1775898000001",
@@ -21,7 +22,8 @@
     "dateBought": "2026-04-11",
     "quantity": 48,
     "totalCost": 19,
-    "notes": "Supermarket"
+    "notes": "Supermarket",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1776243600002",
@@ -33,7 +35,8 @@
     "dateBought": "2026-04-15",
     "quantity": 100,
     "totalCost": 32,
-    "notes": "Amazon"
+    "notes": "Amazon",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1776243600003",
@@ -45,7 +48,8 @@
     "dateBought": "2026-04-15",
     "quantity": 60,
     "totalCost": 27,
-    "notes": "Jumbo"
+    "notes": "Jumbo",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1776675600004",
@@ -57,7 +61,8 @@
     "dateBought": "2026-04-20",
     "quantity": 12,
     "totalCost": 14.4,
-    "notes": "Lidl"
+    "notes": "Lidl",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1776675600005",
@@ -69,7 +74,8 @@
     "dateBought": "2026-04-20",
     "quantity": 120,
     "totalCost": 9.6,
-    "notes": "Lidl"
+    "notes": "Lidl",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1777712400006",
@@ -81,7 +87,8 @@
     "dateBought": "2026-05-02",
     "quantity": 40,
     "totalCost": 18,
-    "notes": "Supermarket"
+    "notes": "Supermarket",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1780390800007",
@@ -93,7 +100,8 @@
     "dateBought": "2026-06-02",
     "quantity": 72,
     "totalCost": 21.6,
-    "notes": "Supermarket"
+    "notes": "Supermarket",
+    "paidBy": "manager"
   },
   {
     "id": "cons_1782637200008",
@@ -105,6 +113,7 @@
     "dateBought": "2026-06-28",
     "quantity": 12,
     "totalCost": 66,
-    "notes": "Local winery"
+    "notes": "Local winery",
+    "paidBy": "manager"
   }
 ]
