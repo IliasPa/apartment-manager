@@ -614,6 +614,36 @@
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
+    },
+    {
+      "id": "e42",
+      "apartment": "Front",
+      "categoryI": "Bedroom",
+      "categoryII": "Decor",
+      "item": "Blackout curtains",
+      "where": "Jumbo",
+      "quantity": 2,
+      "costPerUnit": 22,
+      "totalCost": 44,
+      "status": "bought",
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
+    },
+    {
+      "id": "e43",
+      "apartment": "General",
+      "categoryI": "General",
+      "categoryII": "Internet / TV",
+      "item": "Router + installation",
+      "where": "ISP",
+      "quantity": 1,
+      "costPerUnit": 60,
+      "totalCost": 60,
+      "status": "bought",
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
     }
   ],
   "categories": {

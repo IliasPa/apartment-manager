@@ -94,5 +94,17 @@
     "quantity": 72,
     "totalCost": 21.6,
     "notes": "Supermarket"
+  },
+  {
+    "id": "cons_1782637200008",
+    "apartment": "general",
+    "name": "Welcome wine",
+    "costModel": "perStay",
+    "quantityPerUse": 1,
+    "guestsDefault": 4,
+    "dateBought": "2026-06-28",
+    "quantity": 12,
+    "totalCost": 66,
+    "notes": "Local winery"
   }
 ]

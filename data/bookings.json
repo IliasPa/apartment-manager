@@ -300,6 +300,21 @@
     "guestTaxNumber": ""
   },
   {
+    "id": "bk_1783157220000",
+    "apartment": "back",
+    "checkIn": "2026-08-05",
+    "checkOut": "2026-08-10",
+    "nights": 5,
+    "platform": "Friends",
+    "reservation": 238,
+    "commission": 0,
+    "netIncome": 238,
+    "notes": "2 adults + 1 child",
+    "guestName": "Marco Rossi",
+    "guestId": "CA7906212",
+    "guestTaxNumber": ""
+  },
+  {
     "id": "bk_1780903740000",
     "apartment": "front",
     "checkIn": "2026-08-11",
