@@ -10,7 +10,6 @@
       "quantity": 1,
       "costPerUnit": 349,
       "totalCost": 349,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "manager"
@@ -25,7 +24,6 @@
       "quantity": 6,
       "costPerUnit": 9.5,
       "totalCost": 57,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -40,7 +38,6 @@
       "quantity": 2,
       "costPerUnit": 7.99,
       "totalCost": 15.98,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -55,7 +52,6 @@
       "quantity": 4,
       "costPerUnit": 29.99,
       "totalCost": 119.96,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -70,7 +66,6 @@
       "quantity": 3,
       "costPerUnit": 34.99,
       "totalCost": 104.97,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "Eleni"
@@ -85,7 +80,6 @@
       "quantity": 8,
       "costPerUnit": 8.99,
       "totalCost": 71.92,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -100,7 +94,6 @@
       "quantity": 1,
       "costPerUnit": 420,
       "totalCost": 420,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Eleni"
@@ -115,7 +108,6 @@
       "quantity": 1,
       "costPerUnit": 189,
       "totalCost": 189,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Eleni"
@@ -130,7 +122,6 @@
       "quantity": 1,
       "costPerUnit": 529,
       "totalCost": 529,
-      "status": "amortized",
       "depreciation": true,
       "notes": "incl. installation",
       "paidBy": "Eleni"
@@ -145,7 +136,6 @@
       "quantity": 1,
       "costPerUnit": 459,
       "totalCost": 459,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Eleni"
@@ -160,7 +150,6 @@
       "quantity": 1,
       "costPerUnit": 79,
       "totalCost": 79,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -175,7 +164,6 @@
       "quantity": 1,
       "costPerUnit": 19.9,
       "totalCost": 19.9,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -190,7 +178,6 @@
       "quantity": 1,
       "costPerUnit": 69,
       "totalCost": 69,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -205,7 +192,6 @@
       "quantity": 1,
       "costPerUnit": 54,
       "totalCost": 54,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -220,7 +206,6 @@
       "quantity": 1,
       "costPerUnit": 449,
       "totalCost": 449,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Eleni"
@@ -235,7 +220,6 @@
       "quantity": 1,
       "costPerUnit": 299,
       "totalCost": 299,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Eleni"
@@ -250,7 +234,6 @@
       "quantity": 1,
       "costPerUnit": 329,
       "totalCost": 329,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Eleni"
@@ -265,7 +248,6 @@
       "quantity": 1,
       "costPerUnit": 310,
       "totalCost": 310,
-      "status": "amortized",
       "depreciation": true,
       "notes": "incl. plumber",
       "paidBy": "Giorgos"
@@ -280,7 +262,6 @@
       "quantity": 4,
       "costPerUnit": 9.5,
       "totalCost": 38,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -295,7 +276,6 @@
       "quantity": 1,
       "costPerUnit": 35,
       "totalCost": 35,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -310,7 +290,6 @@
       "quantity": 3,
       "costPerUnit": 29.99,
       "totalCost": 89.97,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -325,7 +304,6 @@
       "quantity": 4,
       "costPerUnit": 8.99,
       "totalCost": 35.96,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -340,7 +318,6 @@
       "quantity": 1,
       "costPerUnit": 560,
       "totalCost": 560,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Giorgos"
@@ -355,7 +332,6 @@
       "quantity": 1,
       "costPerUnit": 449,
       "totalCost": 449,
-      "status": "amortized",
       "depreciation": true,
       "notes": "incl. installation",
       "paidBy": "Giorgos"
@@ -370,7 +346,6 @@
       "quantity": 2,
       "costPerUnit": 14.99,
       "totalCost": 29.98,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -385,7 +360,6 @@
       "quantity": 1,
       "costPerUnit": 389,
       "totalCost": 389,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Giorgos"
@@ -400,7 +374,6 @@
       "quantity": 1,
       "costPerUnit": 199,
       "totalCost": 199,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Giorgos"
@@ -415,7 +388,6 @@
       "quantity": 1,
       "costPerUnit": 65,
       "totalCost": 65,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -430,7 +402,6 @@
       "quantity": 1,
       "costPerUnit": 59,
       "totalCost": 59,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -445,7 +416,6 @@
       "quantity": 1,
       "costPerUnit": 42,
       "totalCost": 42,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -460,7 +430,6 @@
       "quantity": 1,
       "costPerUnit": 349,
       "totalCost": 349,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Giorgos"
@@ -475,7 +444,6 @@
       "quantity": 1,
       "costPerUnit": 219,
       "totalCost": 219,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Giorgos"
@@ -490,7 +458,6 @@
       "quantity": 3,
       "costPerUnit": 12,
       "totalCost": 36,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -505,7 +472,6 @@
       "quantity": 1,
       "costPerUnit": 179,
       "totalCost": 179,
-      "status": "amortized",
       "depreciation": true,
       "notes": "",
       "paidBy": "Giorgos"
@@ -520,7 +486,6 @@
       "quantity": 1,
       "costPerUnit": 48,
       "totalCost": 48,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -535,7 +500,6 @@
       "quantity": 2,
       "costPerUnit": 59,
       "totalCost": 118,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "Eleni"
@@ -550,7 +514,6 @@
       "quantity": 2,
       "costPerUnit": 24.9,
       "totalCost": 49.8,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -565,7 +528,6 @@
       "quantity": 1,
       "costPerUnit": 24.9,
       "totalCost": 24.9,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -580,7 +542,6 @@
       "quantity": 1,
       "costPerUnit": 22.9,
       "totalCost": 22.9,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -595,7 +556,6 @@
       "quantity": 1,
       "costPerUnit": 24.99,
       "totalCost": 24.99,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -610,7 +570,6 @@
       "quantity": 1,
       "costPerUnit": 59,
       "totalCost": 59,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -625,7 +584,6 @@
       "quantity": 2,
       "costPerUnit": 22,
       "totalCost": 44,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -640,7 +598,6 @@
       "quantity": 1,
       "costPerUnit": 60,
       "totalCost": 60,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -655,7 +612,6 @@
       "quantity": 2,
       "costPerUnit": 28,
       "totalCost": 56,
-      "status": "bought",
       "depreciation": false,
       "notes": "legal requirement",
       "paidBy": "manager"
@@ -670,7 +626,6 @@
       "quantity": 2,
       "costPerUnit": 18,
       "totalCost": 36,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -685,7 +640,6 @@
       "quantity": 3,
       "costPerUnit": 14.9,
       "totalCost": 44.7,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -700,7 +654,6 @@
       "quantity": 1,
       "costPerUnit": 90,
       "totalCost": 90,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -715,7 +668,6 @@
       "quantity": 2,
       "costPerUnit": 29.99,
       "totalCost": 59.98,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -730,7 +682,6 @@
       "quantity": 1,
       "costPerUnit": 89,
       "totalCost": 89,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -745,7 +696,6 @@
       "quantity": 2,
       "costPerUnit": 19.99,
       "totalCost": 39.98,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -760,7 +710,6 @@
       "quantity": 1,
       "costPerUnit": 12.5,
       "totalCost": 12.5,
-      "status": "bought",
       "depreciation": false,
       "notes": "",
       "paidBy": "manager"
@@ -775,7 +724,6 @@
       "quantity": 1,
       "costPerUnit": 70,
       "totalCost": 70,
-      "status": "bought",
       "depreciation": false,
       "notes": "blocked drain",
       "paidBy": "manager"
