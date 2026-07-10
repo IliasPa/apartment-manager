@@ -330,6 +330,21 @@
     "guestTaxNumber": ""
   },
   {
+    "id": "bk_1783592520000",
+    "apartment": "back",
+    "checkIn": "2026-09-03",
+    "checkOut": "2026-09-11",
+    "nights": 8,
+    "platform": "Friends",
+    "reservation": 380,
+    "commission": 0,
+    "netIncome": 380,
+    "notes": "Asked for a baby cot",
+    "guestName": "Hannah Fischer",
+    "guestId": "BP6302669",
+    "guestTaxNumber": ""
+  },
+  {
     "id": "bk_1782665160000",
     "apartment": "front",
     "checkIn": "2026-09-10",
