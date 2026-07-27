@@ -727,6 +727,48 @@
       "depreciation": false,
       "notes": "blocked drain",
       "paidBy": "manager"
+    },
+    {
+      "id": "e53",
+      "apartment": "General",
+      "categoryI": "General",
+      "categoryII": "Maintenance",
+      "item": "Paint touch-ups",
+      "where": "Praktiker",
+      "quantity": 1,
+      "costPerUnit": 64,
+      "totalCost": 64,
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
+    },
+    {
+      "id": "e54",
+      "apartment": "General",
+      "categoryI": "General",
+      "categoryII": "Other",
+      "item": "Welcome folder printing",
+      "where": "Copy shop",
+      "quantity": 1,
+      "costPerUnit": 18,
+      "totalCost": 18,
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
+    },
+    {
+      "id": "e55",
+      "apartment": "General",
+      "categoryI": "General",
+      "categoryII": "Maintenance",
+      "item": "Replacement light bulbs",
+      "where": "Praktiker",
+      "quantity": 12,
+      "costPerUnit": 3.2,
+      "totalCost": 38.4,
+      "depreciation": false,
+      "notes": "",
+      "paidBy": "manager"
     }
   ],
   "categories": {
