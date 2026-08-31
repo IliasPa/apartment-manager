@@ -45,7 +45,8 @@
     "envFee": 56,
     "guestName": "Maria Konstantinou",
     "guestId": "NS542727",
-    "guestTaxNumber": "112171427"
+    "guestTaxNumber": "112171427",
+    "paid": true
   },
   {
     "id": "bk_1776349200000",
@@ -61,7 +62,8 @@
     "envFee": 56,
     "guestName": "Giulia Bianchi",
     "guestId": "BG3908563",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1772740080000",
@@ -77,7 +79,8 @@
     "envFee": 80,
     "guestName": "Jan de Vries",
     "guestId": "TA3166605",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1773581880000",
@@ -93,7 +96,8 @@
     "envFee": 64,
     "guestName": "Dimitris Pappas",
     "guestId": "TP650138",
-    "guestTaxNumber": "134714533"
+    "guestTaxNumber": "134714533",
+    "paid": true
   },
   {
     "id": "bk_1774273500000",
@@ -125,7 +129,8 @@
     "envFee": 40,
     "guestName": "Ioanna Vlachou",
     "guestId": "PK546016",
-    "guestTaxNumber": "171539513"
+    "guestTaxNumber": "171539513",
+    "paid": true
   },
   {
     "id": "bk_1779210840000",
@@ -157,7 +162,8 @@
     "envFee": 32,
     "guestName": "Daniel Novak",
     "guestId": "TR5826306",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1776443400000",
@@ -189,7 +195,8 @@
     "envFee": 32,
     "guestName": "Oliver Brown",
     "guestId": "KD4595877",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1776883440000",
@@ -205,7 +212,8 @@
     "envFee": 56,
     "guestName": "James Wilson",
     "guestId": "RG5938778",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1777478460000",
@@ -237,7 +245,8 @@
     "envFee": 24,
     "guestName": "Sarah Johnson",
     "guestId": "KY4597623",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1778006520000",
@@ -253,7 +262,8 @@
     "envFee": 24,
     "guestName": "Erik Larsen",
     "guestId": "TN4352718",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1782325200000",
@@ -269,7 +279,8 @@
     "envFee": 64,
     "guestName": "Katarzyna Nowak",
     "guestId": "DR3873519",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1778093220000",
@@ -285,7 +296,8 @@
     "envFee": 56,
     "guestName": "Julia Wagner",
     "guestId": "YB5866552",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1782057660000",
@@ -301,7 +313,8 @@
     "envFee": 80,
     "guestName": "Pierre Dubois",
     "guestId": "XM5643699",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1781700180000",
@@ -349,7 +362,8 @@
     "envFee": 56,
     "guestName": "Mia Andersson",
     "guestId": "AC1003589",
-    "guestTaxNumber": ""
+    "guestTaxNumber": "",
+    "paid": true
   },
   {
     "id": "bk_1784961480000",
@@ -414,5 +428,69 @@
     "guestName": "Lucas Silva",
     "guestId": "YH8935346",
     "guestTaxNumber": ""
+  },
+  {
+    "id": "bk_1786984920000",
+    "apartment": "back",
+    "checkIn": "2026-09-13",
+    "checkOut": "2026-09-21",
+    "nights": 8,
+    "platform": "Airbnb",
+    "reservation": 941,
+    "commission": 145.85,
+    "netIncome": 731.15,
+    "notes": "Late arrival ~23:00",
+    "envFee": 64,
+    "guestName": "Chloé Bernard",
+    "guestId": "XK7527130",
+    "guestTaxNumber": ""
+  },
+  {
+    "id": "bk_1787573220000",
+    "apartment": "front",
+    "checkIn": "2026-09-15",
+    "checkOut": "2026-09-23",
+    "nights": 8,
+    "platform": "Direct",
+    "reservation": 1197,
+    "commission": 0,
+    "netIncome": 1133,
+    "notes": "",
+    "envFee": 64,
+    "guestName": "Lukas Weber",
+    "guestId": "EZ6133900",
+    "guestTaxNumber": ""
+  },
+  {
+    "id": "bk_1786609320000",
+    "apartment": "back",
+    "checkIn": "2026-10-07",
+    "checkOut": "2026-10-13",
+    "nights": 6,
+    "platform": "Airbnb",
+    "reservation": 526,
+    "commission": 81.53,
+    "netIncome": 396.47,
+    "notes": "Arriving by ferry",
+    "envFee": 48,
+    "guestName": "Maria Konstantinou",
+    "guestId": "BD269999",
+    "guestTaxNumber": "183076786"
+  },
+  {
+    "id": "bk_1787549340000",
+    "apartment": "back",
+    "checkIn": "2026-10-13",
+    "checkOut": "2026-10-17",
+    "nights": 4,
+    "platform": "Booking",
+    "reservation": 381,
+    "commission": 62.87,
+    "netIncome": 286.13,
+    "notes": "Returning guests",
+    "envFee": 32,
+    "guestName": "Dimitris Pappas",
+    "guestId": "ZE473263",
+    "guestTaxNumber": "155740367"
   }
 ]
