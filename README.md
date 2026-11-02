@@ -7,6 +7,8 @@ Works on desktop and phone: on small screens the sidebar becomes a slide-in menu
 > The commit history is the real development history (same dates and messages); everything in `data/`
 > is fictional demo data, and the app's automatic data-sync commits are left out.
 
+**Live demo:** https://iliaspa.github.io/apartment-manager/ — opens with the demo data, no login needed (pushing changes needs a GitHub token with write access).
+
 ---
 
 ## Features
@@ -113,7 +115,7 @@ All data is stored as JSON files in the GitHub repo under `data/`, read and writ
 | `data/consumables.json` | Consumable stock entries |
 | `data/cleaning.json` | `{ hiddenCosts: [...], rates: {...} }` |
 
-**localStorage** (browser only, not synced to GitHub):
+**localStorage** (browser only, not synced to GitHub; keys are prefixed with `demo_` so this copy never shares them with another app on the same `github.io` origin):
 - `gh_token` — GitHub Personal Access Token
 - `gh_config` — repo owner / name / branch
 - `show_booking_financials` — display toggle

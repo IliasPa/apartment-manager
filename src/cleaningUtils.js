@@ -1,8 +1,10 @@
+import { storage } from "./storage.js";
+
 const APT_COLORS = ["#3b82f6", "#8b5cf6", "#10b981", "#f59e0b", "#ef4444"];
 
 export function getCleaningRates() {
   try {
-    const r = JSON.parse(localStorage.getItem("cleaning_rates") || "{}");
+    const r = JSON.parse(storage.getItem("cleaning_rates") || "{}");
     return {
       fullClean: r.fullClean ?? 60,
       beddingChange: r.beddingChange ?? 60,
@@ -14,7 +16,7 @@ export function getCleaningRates() {
 }
 
 export function saveCleaningRates(rates) {
-  localStorage.setItem("cleaning_rates", JSON.stringify(rates));
+  storage.setItem("cleaning_rates", JSON.stringify(rates));
 }
 
 function isWeekend(date) {

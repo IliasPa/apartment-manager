@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import { DataContext } from './DataContext.jsx';
 import { loadAllData, saveAllData, getStoredToken, getStoredConfig } from './github.js';
 import { DEFAULT_CATEGORIES } from './categories.js';
+import { storage } from './storage.js';
 import Layout from './components/Layout.jsx';
 import Overview from './pages/Overview.jsx';
 import Bookings from './pages/Bookings.jsx';
@@ -15,7 +16,7 @@ import Notes from './pages/Notes.jsx';
 
 function getStoredCategories() {
   try {
-    const s = localStorage.getItem('expense_categories');
+    const s = storage.getItem('expense_categories');
     return s ? JSON.parse(s) : DEFAULT_CATEGORIES;
   } catch {
     return DEFAULT_CATEGORIES;
@@ -36,7 +37,7 @@ export default function App() {
   const [cleaning, setCleaning] = useState({ hiddenCosts: [], rates: { fullClean: 60, beddingChange: 60, beddingInterval: 4 } });
 
   const [showBookingFinancials, setShowBookingFinancials] = useState(
-    () => localStorage.getItem('show_booking_financials') !== 'false'
+    () => storage.getItem('show_booking_financials') !== 'false'
   );
   const [expenseCategories, setExpenseCategories] = useState(getStoredCategories);
 
@@ -50,7 +51,7 @@ export default function App() {
     setLoadError('');
 
     try {
-      const cached = localStorage.getItem('data_cache');
+      const cached = storage.getItem('data_cache');
       if (cached) {
         const c = JSON.parse(cached);
         setBookings(c.bookings || []);
@@ -66,8 +67,8 @@ export default function App() {
       }
     } catch {}
 
-    if (!tk) { setLoading(false); return; }
-
+    // No token: still read the data, which works for a public repo (demo visitors).
+    // Pushing changes needs a token.
     try {
       const data = await loadAllData(tk, cfg);
       setBookings(data.bookings);
@@ -81,11 +82,11 @@ export default function App() {
       setConsumables(data.consumables || []);
       setCleaning(data.cleaning || { hiddenCosts: [], rates: { fullClean: 60, beddingChange: 60, beddingInterval: 4 } });
       if (data.expenseCategories) setExpenseCategories(data.expenseCategories);
-      localStorage.setItem('data_cache', JSON.stringify({
+      storage.setItem('data_cache', JSON.stringify({
         ...data,
         // don't cache nulls from an old-format apartments.json
-        manager: data.manager || JSON.parse(localStorage.getItem('data_cache') || '{}').manager || { name: '', phone: '' },
-        accountant: data.accountant || JSON.parse(localStorage.getItem('data_cache') || '{}').accountant || { name: '', phone: '', email: '' },
+        manager: data.manager || JSON.parse(storage.getItem('data_cache') || '{}').manager || { name: '', phone: '' },
+        accountant: data.accountant || JSON.parse(storage.getItem('data_cache') || '{}').accountant || { name: '', phone: '', email: '' },
       }));
       setPushState('idle');
       setLoading(false);
@@ -125,7 +126,7 @@ export default function App() {
     setPushError('');
     try {
       await saveAllData({ bookings, expenses, expenseCategories, apartments, manager, accountant, notes, consumables, cleaning }, token, config);
-      localStorage.setItem('data_cache', JSON.stringify({ bookings, expenses, expenseCategories, apartments, manager, accountant, notes, consumables, cleaning }));
+      storage.setItem('data_cache', JSON.stringify({ bookings, expenses, expenseCategories, apartments, manager, accountant, notes, consumables, cleaning }));
       setPushState('success');
       setTimeout(() => setPushState('idle'), 3000);
     } catch (err) {
@@ -136,18 +137,18 @@ export default function App() {
   }, [bookings, expenses, expenseCategories, apartments, manager, accountant, notes, consumables, cleaning, token, config]);
 
   const saveToken = useCallback((newToken) => {
-    localStorage.setItem('gh_token', newToken);
+    storage.setItem('gh_token', newToken);
     setToken(newToken);
     load(newToken, config);
   }, [config, load]);
 
   const saveConfig = useCallback((newConfig) => {
-    localStorage.setItem('gh_config', JSON.stringify(newConfig));
+    storage.setItem('gh_config', JSON.stringify(newConfig));
     setConfig(newConfig);
   }, []);
 
   const saveShowBookingFinancials = useCallback((val) => {
-    localStorage.setItem('show_booking_financials', String(val));
+    storage.setItem('show_booking_financials', String(val));
     setShowBookingFinancials(val);
   }, []);
 

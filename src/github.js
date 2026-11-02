@@ -1,3 +1,5 @@
+import { storage } from './storage.js';
+
 const GH_API = 'https://api.github.com';
 
 export const DEFAULT_CONFIG = {
@@ -7,12 +9,12 @@ export const DEFAULT_CONFIG = {
 };
 
 export function getStoredToken() {
-  return localStorage.getItem('gh_token') || '';
+  return storage.getItem('gh_token') || '';
 }
 
 export function getStoredConfig() {
   try {
-    const s = localStorage.getItem('gh_config');
+    const s = storage.getItem('gh_config');
     return s ? { ...DEFAULT_CONFIG, ...JSON.parse(s) } : DEFAULT_CONFIG;
   } catch {
     return DEFAULT_CONFIG;
@@ -21,7 +23,7 @@ export function getStoredConfig() {
 
 function authHeaders(token) {
   return {
-    Authorization: `token ${token}`,
+    ...(token ? { Authorization: `token ${token}` } : {}),
     'User-Agent': 'ApartmentManager/3.0',
     Accept: 'application/vnd.github.v3+json',
     'Content-Type': 'application/json',
