@@ -3,7 +3,9 @@
 Short-rental property management app for two apartments in Lefkada, Greece.
 Works on desktop and phone: on small screens the sidebar becomes a slide-in menu (☰), stat cards stack, and wide tables scroll horizontally.
 
-**Live app:** https://iliaspa.github.io/apartment-manager/
+> **Portfolio copy.** This is a public copy of an app I built and use to run two holiday apartments.
+> The commit history is the real development history (same dates and messages); everything in `data/`
+> is fictional demo data, and the app's automatic data-sync commits are left out.
 
 ---
 
